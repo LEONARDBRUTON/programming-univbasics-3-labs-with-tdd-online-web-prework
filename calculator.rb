@@ -9,6 +9,6 @@ end
 do
   second_number = get_variable_from_file('./calculator,rb',"second_number")
   
+  expect(second_number).not_to equal (0)
   
-  
-  
+end
