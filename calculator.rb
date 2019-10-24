@@ -12,3 +12,5 @@ do
   expect(second_number).not_to equal (0)
   
 end
+
+filter_parameter_logging
