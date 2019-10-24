@@ -48,5 +48,7 @@ it
     expect(quotient).to eq(first_number/second_number)
   end
 end
+  first_number = 5
+  second_number = 9
   
   
