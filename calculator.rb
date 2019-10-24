@@ -30,7 +30,8 @@ it
     expect(difference).to eq(first_number-second_number)
   end
   
- it "contains a local variable called product that is assigned to the result of multiplying first_number and second_number" do
+ it 
+  do
     first_number = get_variable_from_file('./calculator.rb', "first_number")
     second_number = get_variable_from_file('./calculator.rb', "second_number")
     product = get_variable_from_file('./calculator.rb', "product")
