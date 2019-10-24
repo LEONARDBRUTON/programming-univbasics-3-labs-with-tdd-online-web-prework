@@ -20,3 +20,4 @@ it
 
     expect(sum).to eq(first_number+second_number)
   end
+
